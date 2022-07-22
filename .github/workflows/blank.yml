@@ -38,7 +38,7 @@ jobs:
       - uses: convictional/trigger-workflow-and-wait@v1.6.1
         with:
           owner: dipudan
-          repo: dipudan/SampleTriggered
+          repo: SampleTriggered
           github_token: ${{ secrets.dipudan_access }}
           workflow_file_name: dummy.yml
           ref: main
