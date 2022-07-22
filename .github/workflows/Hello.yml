@@ -42,4 +42,3 @@ jobs:
         propagate_failure: false
         trigger_workflow: true
         wait_workflow: false
-You have no unread notifications
