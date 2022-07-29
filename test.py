@@ -1,5 +1,6 @@
 import mathlib
- 
+from pytest import ExitCode
+
 def test_calc_addition():
     output = mathlib.calc_addition(2,4)
     assert output == 6
@@ -11,3 +12,6 @@ def test_calc_substraction():
 def test_calc_multiply():
     output = mathlib.calc_multiply(2,4)
     assert output == 8
+
+
+print("Hello")
